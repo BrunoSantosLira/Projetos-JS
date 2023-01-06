@@ -1,0 +1,15 @@
+body{
+    background-color: orange;
+}
+
+
+#caixa{
+    background-color: white;
+    width: 650px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+#tempo{
+    font-size: 35px;
+}

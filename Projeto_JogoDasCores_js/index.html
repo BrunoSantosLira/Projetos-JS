@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Cores</title>
+
+    <!--Css e BootStrap-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+    <body class="bg-dark">
+        
+        <article class="container-fluid d-flex justify-content-center bg-info border-bottom">
+
+            <div class="text-light ">
+                <h2 class=" text-center" id="mensagem-topo">WELCOME!!! </h2>
+                <h3 class="display-4 text-center" id="rgb_display">RGB(0,0,0)</h3>
+                <h4 class="text-center">GUESSING GAME</h4>
+            </div>
+
+        </article>
+           
+        <div id="barra-inicio" style="text-align: center;">
+            <button onclick="iniciar_gerar()" class="btn btn-primary" id="btn-iniciar">New Game</button>
+            <form class="form-inline ">
+                <select class="form-control" id="dificuldade">
+                    <option>Normal</option>
+                    <option>Easy</option>
+                    
+                </select>
+            </form>
+        </div>
+
+        <article id="caixa">
+
+            <div class="quadrado" id="quadrado1" onclick="verificar(1)">
+
+            </div>
+
+            <div class="quadrado " id="quadrado2" onclick="verificar(2)">
+
+            </div>
+
+
+            <div class="quadrado" id="quadrado3" onclick="verificar(3)">
+
+            </div>
+
+            <div class="quadrado" id="quadrado4" onclick="verificar(4)">
+
+            </div>
+
+            <div class="quadrado" id="quadrado5" onclick="verificar(5)">
+
+            </div>
+
+            <div class="quadrado" id="quadrado6" onclick="verificar(6)">
+
+            </div>
+
+
+        </article>
+    
+    <script src="script.js"></script>
+    </body>
+</html>

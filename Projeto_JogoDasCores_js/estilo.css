@@ -1,0 +1,24 @@
+#barra-inicio{
+    background-color: white;
+    height: 40px;
+}
+
+
+.quadrado{
+    background-color: rgb(174, 210, 0);
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#caixa{
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
