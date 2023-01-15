@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Jogo da velha--</title>
+
+    <!--BootStrap e CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/64e0418c32.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="unnamed.png">
+</head>
+    <body>
+
+        <table>
+            <tr>
+                <th style="border: 1px solid black;">Pontuação X:</th>
+                <th style="border: 1px solid black;">Pontuação O:</th>
+            </tr>
+            <tr>
+                <td id="pontuação_x" style="border: 1px solid red;">0</td>
+                <td id="pontuação_o" style="border: 1px solid red;">0</td>
+            </tr>
+        </table>
+        <article class="container  d-flex justify-content-center flex-column">
+
+            
+
+            <h1 class="text-center text-primary">Jogo da velha</h1>
+            <div class="item align-self-center">
+                <button class="btn btn-primary btn-lg " onclick="iniciar()" id="botão-iniciar">Iniciar Jogo</button>
+            </div>    
+
+            <table class="m-5 flex-column d-flex justify-content-center text-center flex-row" style="align-items: center;">
+                <tr>
+                    <td><div class="espaço" id="caixa1"  onclick="clickar(1)"></div></td>
+                    <td><div class="espaço" id="caixa2"  onclick="clickar(2)"></div></td>
+                    <td><div class="espaço" id="caixa3"  onclick="clickar(3)"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="espaço" id="caixa4" onclick="clickar(4)"></div></td>
+                    <td><div class="espaço" id="caixa5" onclick="clickar(5)"></div></td>
+                    <td><div class="espaço" id="caixa6" onclick="clickar(6)"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="espaço" id="caixa7" onclick="clickar(7)"></div></td>
+                    <td><div class="espaço" id="caixa8" onclick="clickar(8)"></div></td>
+                    <td><div class="espaço" id="caixa9" onclick="clickar(9)"></div></td>
+                </tr>
+            </table>
+                
+            <h2 class="text-center text-primary" id="quem_venceu">aa</h2>
+            <div class="item align-self-center" id="botao-reiniciar">
+                <button class="btn btn-danger btn-lg " onclick="window.location.reload()" id="botão-reiniciar" >Reiniciar Jogo</button>
+            </div> 
+
+        </article>
+    <script src="script.js"></script>
+    </body>
+</html>

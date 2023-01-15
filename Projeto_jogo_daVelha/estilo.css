@@ -1,0 +1,76 @@
+.espaço{
+    width: 125px;
+    height: 125px;
+
+    
+}
+
+#caixa1{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa2{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa3{
+    border-bottom: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa4{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa5{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa6{
+    border-bottom: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+
+#caixa7{
+    border-right: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa8{
+    border-right: 3px solid black;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+#caixa9{
+    border: none;
+    text-align: center;
+    line-height: 120px;
+    font-size:  85px;
+}
+
+
