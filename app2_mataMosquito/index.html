@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--BootStrap-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script>
+        function iniciarJogo(){
+            var nivel = window.document.getElementById('niveis').value
+            if (nivel == ''){
+                alert('Selecione um nível')
+            }else {
+                window.location.href = "jogo.html?" + nivel
+            }
+        }
+    </script>
+    <title>Home - Mata Mosquito</title>
+</head>
+    <body onresize="">
+        <article class="d-flex flex-column container" >
+            <img class="item align-self-center" src="imagens/game.png" width="450px"alt="">
+        
+            <form class="item align-self-center">
+                <div class="form-group ">
+                    <label for="niveis"></label>
+                    <select  class="form-control"  id="niveis">
+                        <option value="">-- Selecione o nível --</option>
+                        <option value="normal">Normal</option>
+                        <option value="dificil">Difícil</option>
+                        <option value="norris">Chuck Norris</option>
+                    </select>
+                </div>
+            </form>
+
+            <a class="item align-self-center" href="#">
+            <button class="btn btn-danger w-15 pt-3 pb-3 " onclick="iniciarJogo()">Iniciar jogo</button>
+            </a>
+           
+        </article>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+
+
+html,body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: url(imagens/mata_mosca.png) 30 30, auto  ;
+}
+
+body{
+    background: url(imagens/bg.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+#cor {
+    background-color: red;
+}
+
